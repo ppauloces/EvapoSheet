@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EvapoSheet - PIBIT</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+	<style>
+		body, html {
+			font-family: Calibri, sans-serif;
+			scroll-behavior: smooth;
+		}
+	</style>
+</head>
+<body style="background-color: #185C37">
+
+	<nav style="background-color: #185C37">
+		<div class="nav-wrapper container" >
+			<a href="#" class="brand-logo">EvapoSheet</a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#justificativa">Justificativa</a></li>
+				<li><a href="#equipe">Equipe</a></li>
+				<li><a href="#equipe">Baixar</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="parallax-container">
+		<div class="section no-pad-bot">
+			<div class="container">
+				<br><br>
+				<h1 class="header center" style="color: #185C37;">EvapoSheet</h1>
+				<div class="row center">
+					<h5 class="header col s12 light">Planilha Eletrônica para cálculos de evapotranspiração.</h5>
+				</div>
+				<div class="row center">
+					<a style="background-color: #185C37" href="assets/download/evaposheet.xlsm" download="evaposheet" class="btn-large waves-effect waves-light">BAIXAR</a>
+				</div>
+				<br><br>
+
+			</div>
+		</div>
+		<div class="parallax"><img src="assets/img/fundo.png" style="filter: blur(8px);-webkit-filter: blur(8px);"></div>
+	</div>
+
+	<div class="container">
+		<div id="sobre">
+			<h3 class="header center white-text">Sobre</h3>
+
+			<div class="row">
+				<div class="col s12 white-text">
+					<p class="light flow-text" style="text-align: justify;">O EvapoSheet é uma inovadora ferramenta computacional desenvolvida por um aluno do ensino médio técnico de informática pelo IFBA Campus Eunápolis, através do Programa Institucional de Bolsas de Iniciação Científica para o Ensino Médio (PIBIT-EM). Com o objetivo de simplificar e automatizar o cálculo da Evapotranspiração Potencial (ETP) pelo Método de Thornthwaite.</p>
+
+					<p class="light flow-text" style="text-align: justify;">Através do EvapoSheet, oferecemos uma solução gratuita que permite aos usuários estimar as lâminas mensais de evapotranspiração potencial de forma rápida e precisa. A planilha foi desenvolvida com base em sólidos conhecimentos em hidrologia e meteorologia, e sua usabilidade foi refinada com o feedback de nossos usuários.</p>
+
+					<p class="light flow-text " style="text-align: justify;">Nosso compromisso é fornecer uma ferramenta confiável e valiosa para profissionais, estudantes e pesquisadores nas áreas de meio ambiente, agropecuária e recursos hídricos. Esperamos que o EvapoSheet contribua significativamente para o avanço do conhecimento e a gestão sustentável dos recursos naturais.</p>
+				</div>
+			</div>
+		</div>
+		<div id="justificativa">
+			<h3 class="header center white-text">Justificativa</h3>
+
+			<div class="row">
+				<div class="col s12 white-text">
+					<p class="light flow-text" style="text-align: justify;">A estimativa da Evapotranspiração Potencial (ETP) é um elemento essencial em diversas áreas, incluindo agricultura, gestão de recursos hídricos, planejamento urbano e estudos ambientais. A ETP representa a quantidade máxima de água que pode ser perdida para a atmosfera de uma determinada área em um período de tempo, sendo um parâmetro fundamental para o dimensionamento de sistemas de irrigação, previsão de demanda hídrica e avaliação do balanço hídrico em ecossistemas.</p>
+
+					<p class="light flow-text" style="text-align: justify;">No entanto, calcular a ETP com precisão pode ser uma tarefa complexa que envolve o uso de equações meteorológicas e uma série de variáveis climáticas. Foi com base nessa complexidade e na necessidade de tornar essa estimativa mais acessível e eficiente que o projeto EvapoSheet foi desenvolvido.</p>
+
+					<p class="light flow-text " style="text-align: justify;">O EvapoSheet oferece uma solução prática e amigável para o cálculo da ETP pelo Método de Thornthwaite. Com uma interface intuitiva e ferramentas avançadas de processamento de dados climáticos, nossa planilha permite que profissionais, estudantes e pesquisadores realizem estimativas confiáveis da ETP de forma rápida e descomplicada.</p>
+				</div>
+			</div>
+		</div>
+		<div id="equipe">
+			<h3 class="header center white-text">Equipe Executora</h3>
+
+			<div class="row white-text center">
+				<div class=" col s4 ">
+					<p class="light flow-text">Paulo César Barreto Amaral (PIBIT - EM) <br>
+					<a href="http://lattes.cnpq.br/9241150023868175" >Currículo Lattes</a></p>
+				</div>
+				<div class="col s4">
+					<p class="light flow-text">Adriana de Oliveira Angeli (PIBIT)<br>
+					<a href="http://lattes.cnpq.br/8377028290158503" >Currículo Lattes</a></p>
+				</div>
+				<div class="col s4">
+					<p class="light flow-text">Davi Santiago Aquino Orientador <br>
+					<a href="http://lattes.cnpq.br/2142868814135719" >Currículo Lattes</a></p>
+
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.parallax').parallax();
+			});
+		</script>
+	</body>
+	</html>
